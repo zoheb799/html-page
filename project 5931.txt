@@ -1,0 +1,41 @@
+12 volts 1 amp battery but when it is connectedin parallel series then current becomes 2 amps
+
+2) we used four wheeled motors circuit by l293d motor driver
+
+3) we used lm2596 voltage regulator  which converts 12v dc to 5v 2 amps
+4) motors are connected to the L293d motor driver to pins of raspberry pi 4 model b in the pin ( 5,6,9,13) pins 
+5) servo motor at 12 pin
+ultrasonic sensor at 23 and 24 pin
+6) there must be lan or any network connected to the specific name as project 5931  with pass of 123456789 as configured in the connection portal
+7) inorder to get the ip address of the robot (raspberry pi ) when it was switched on and to check the ip address we have to install the network analyser application from the playstore in order to see the ip address ....
+8) as we set our server at localhost of 5000...once the raspberry pi is rebooted ...and spyrobot and user has same n/w (same lan or any network)
+9) once the network analyser is installed then...we have to look a ip address ....ip address is traced when there is same network for the robot and use end with project 5931 configuration....
+
+10) once we get our ip address ...copy it and paste in the chrome in the new tab...
+ 11) then use pur server port number with a colon :5000/
+12) then look at the chrome and wait untill it loads
+ 13) then we will be getting the web page ...where we started from a scratch ....
+14) as we installed the python libraries like ex 
+
+*/  import motors
+import servo
+import cam/*   // these are the libraries which are made by us...
+
+
+the below following are the inbuilt libraries 
+
+import RPi.GPIO as GPIO
+import requests
+import threading
+import time
+#import cv2
+import numpy as np
+import math
+import commands
+import socket
+
+all these help in configuration of the web page to run and work accordingly.....
+
+
+
+
